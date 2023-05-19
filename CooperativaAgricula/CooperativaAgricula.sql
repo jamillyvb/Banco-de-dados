@@ -1,0 +1,49 @@
+CREATE DATABASE CooperaAgricula;
+USE CooperaAgricula;
+
+CREATE TABLE Produtor(
+CPF VARCHAR(14) PRIMARY KEY NOT NULL,
+Nome VARCHAR(100),
+Sobrenome VARCHAR(100)
+);
+
+CREATE TABLE Localizacao(
+ID INT PRIMARY KEY NOT NULL,
+FormatoRegiao VARCHAR(255) NOT NULL
+);
+CREATE TABLE Coordenadas(
+ID INT PRIMARY KEY NOT NULL,
+Latitude DOUBLE NOT NULL,
+Longetude DOUBLE NOT NULL,
+ID_Localizacao INT,
+FOREIGN KEY (ID_Localizacao) REFERENCES Localizacao(ID)
+);
+CREATE TABLE Lavoura(
+ID INT PRIMARY KEY NOT NULL,
+NomeTipoPlantado VARCHAR(100),
+CicloVidaLavoura DOUBLE,
+DataPlantio DATE,
+DataColheita DATE,
+CPF_Produtor VARCHAR(14),
+FOREIGN KEY (CPF_Produtor) REFERENCES Produtor(CPF)
+);
+CREATE TABLE Terras(
+ID INT PRIMARY KEY NOT NULL,
+QuantiTerras DOUBLE NOT NULL,
+CPF_Produtor VARCHAR(14),
+FOREIGN KEY (CPF_Produtor) REFERENCES Produtor(CPF)
+);
+CREATE TABLE Regioes(
+ID INT PRIMARY KEY NOT NULL,
+QuantiRegioes DOUBLE NOT NULL,
+QuantiCategoPlantio INT NOT NULL,
+ID_Terras INT,
+FOREIGN KEY (ID_Terras) REFERENCES Terras(ID)
+);
+CREATE TABLE Lavoura_Regiao(
+ID INT PRIMARY KEY NOT NULL,
+ID_Lavoura INT,
+ID_Regioes INT,
+FOREIGN KEY (ID_Lavoura) REFERENCES Lavoura(ID),
+FOREIGN KEY (ID_Regioes) REFERENCES Regioes(ID)
+);
