@@ -15,7 +15,7 @@ Atividades e trabalhos desenvolvidos durante a disciplina.
 <table>
 <tr>
 <td>
-	Este é um levantamento de requisito para gerenciar as necessidades dos usuários das lojas Americanas no que diz respeito ao processo de compra dentro da plataforma.
+	Este é um projeto de banco de dados para gerenciar as necessidades dos usuários das lojas Americanas no que diz respeito ao processo de compra dentro da plataforma.
 	</td>
 </tr>
 </table> 
