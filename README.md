@@ -36,6 +36,6 @@ Atividades e trabalhos desenvolvidos durante a disciplina.
 <h1 align="center"> Modelo Entidade Relacionamento<br> (MER) </h1> <br>
 <p align="center">
   <a href="" align="center">
-      <img alt="Amer" title="AMer" src="https://github.com/jamillyvb/Banco-de-dados/assets/59182376/29b41ca4-2561-4b28-b019-9a13d6534c6f" width="750">
+      <img alt="Amer" title="AMer" src="https://github.com/jamillyvb/Banco-de-dados/assets/59182376/29b41ca4-2561-4b28-b019-9a13d6534c6f" width="800">
   </a>
 </p>
