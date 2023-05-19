@@ -15,8 +15,8 @@ Atividades e trabalhos desenvolvidos durante a disciplina.
 <table>
 <tr>
 <td>
-    Este é um levantamento de requisitos para gerenciar as necessidades dos usuários das lojas Americanas no que diz respeito ao processo de compra dentro da plataforma. 
-</td>
+	Este é um levantamento de requisito para gerenciar as necessidades dos usuários das lojas Americanas no que diz respeito ao processo de compra dentro da plataforma.
+	</td>
 </tr>
 </table> 
 
@@ -35,7 +35,7 @@ Atividades e trabalhos desenvolvidos durante a disciplina.
 	- Scripts
 <h1 align="center"> Modelo Entidade Relacionamento<br> (MER) </h1> <br>
 <p align="center">
-  <a href="">
+  <a href="" align="center">
       <img alt="Amer" title="AMer" src="https://github.com/jamillyvb/Banco-de-dados/assets/59182376/29b41ca4-2561-4b28-b019-9a13d6534c6f" width="750">
   </a>
 </p>
